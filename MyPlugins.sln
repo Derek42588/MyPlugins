@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPlugins", "MyPlugins\MyPlugins.csproj", "{CC867B09-59F7-46D8-89D3-9F7A832EC2C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCustomWorkflows", "MyCustomWorkflows\MyCustomWorkflows.csproj", "{9A4013C9-D800-495C-9091-465703B90575}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientScripts", "ClientScripts", "{567344D1-6CD9-40DB-9EB7-744847F0E65B}"
+	ProjectSection(SolutionItems) = preProject
+		ContactScripts.js = ContactScripts.js
+		GlobalHelper.js = GlobalHelper.js
+		MyHTML.html = MyHTML.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC867B09-59F7-46D8-89D3-9F7A832EC2C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC867B09-59F7-46D8-89D3-9F7A832EC2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC867B09-59F7-46D8-89D3-9F7A832EC2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC867B09-59F7-46D8-89D3-9F7A832EC2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4013C9-D800-495C-9091-465703B90575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4013C9-D800-495C-9091-465703B90575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4013C9-D800-495C-9091-465703B90575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4013C9-D800-495C-9091-465703B90575}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {588C11E4-F2CD-49FA-AC90-2A60BC9BC1AD}
+	EndGlobalSection
+EndGlobal
